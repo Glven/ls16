@@ -1,0 +1,63 @@
+$primary: #E3B873
+$light: #fff
+$dark: #131313
+
+.header
+  position: fixed
+  font-family: 'Futura Demi', sans-serif
+  left: 0
+  top: 0
+  z-index: 99
+  width: 100%
+  display: flex
+  align-items: center
+  min-height: 80px
+  background-color: $dark
+  &__wrap
+    display: flex
+    align-items: center
+  &__logo
+    margin-right: 80px
+  &__nav
+    margin-right: 120px
+    font-family: 'Futura Book', sans-serif
+  &__call
+    display: flex
+    align-items: center
+  &__number
+    margin-right: 40px
+  &__btn
+    padding: 13px 20px
+.nav
+  display: flex
+  align-items: center
+  a
+    margin-right: 40px
+    display: inline-block
+    text-transform: uppercase
+    color: $light
+    text-decoration: none
+    font-size: 12px
+    &:last-child
+      margin-right: 0
+    &:hover
+      transition: all 0.2s
+      color: $primary
+.logo
+  font-size: 14px
+  font-weight: 500
+  text-transform: uppercase
+  text-decoration: none
+  color: $primary
+.number
+  font-size: 14px
+  font-weight: 500
+  text-transform: uppercase
+  color: $primary
+.btn
+  border-radius: 2px
+  font-family: 'Futura Demi', sans-serif
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2)
+  background-color: $primary
+  color: $light
+  border: none
